@@ -9,7 +9,7 @@ class Task extends Component {
         }    
     }
     
-    handleAcceptTask = () => {
+    handleAcceptTask = () => 
         this.setState({
             accepted: !this.state.accepted
         })
